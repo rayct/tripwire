@@ -19,5 +19,5 @@ find "$rootdir" -type f -mtime 0 2>/dev/null | \
   grep -E -v "$exclude"
 
 
-# Raymond C. TURNER 
+# Coded by: Raymond C. TURNER 
 
