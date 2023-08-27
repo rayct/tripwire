@@ -1,0 +1,23 @@
+#!/bin/sh
+
+rootdir='/'
+
+exclude=\
+'container|cache|'\
+'\/[a-f0-9]{3,}_0|'\
+"^$HOME"\
+'/.(bash_history|viminfo|.cache/google)'
+
+include='^/(etc|dev)'
+
+# Use find to get all files that have changed since a specific time.
+#   0 mean last 24 hours
+#   1 means 24-48 hours
+
+find "$rootdir" -type f -mtime 0 2>/dev/null | \
+  grep -E "$include" | \
+  grep -E -v "$exclude"
+
+
+# Raymond C. TURNER 
+
