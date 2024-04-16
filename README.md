@@ -92,6 +92,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Developed and Documentation By: **Raymond C. TURNER**
+Documentation By: **Raymond C. TURNER**
 
-Last Updated: Sunday 27th August 2023 @ 15:22 BST
+Last Updated: April 16th, 2024 @ 15:22 BST
